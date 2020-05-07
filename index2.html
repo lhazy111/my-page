@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"-->
     <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <!--Font awesome-->
@@ -23,19 +23,25 @@
     <title>Lou page</title>
 </head>
 
-<body id="page-top">
+<body>
+    <!----------------- NAVBAR ----------------->
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">&lt; _Lou /&gt;</a>
+        <div class="container-fluid">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">&lt; _Lou /&gt;</a>
             <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded"
                 type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i>
+            </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#portfolio">PORTFOLIO</a>
+                            href="#about">ABOUT</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#about">ABOUT</a>
+                            href="#certificates">CERTIFICATES</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="#projects">PROJECTS</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
                             href="#contact">CONTACT</a>
@@ -44,90 +50,121 @@
             </div>
         </div>
     </nav>
+    <!-----------------NAVBAR   END----------------->
+
+    <!-----------------HEADER----------------------->
     <header class="masthead bg-primary text-white text-center">
-        <div class="container d-flex align-items-center flex-column">
-            <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="./img/avataaars.png" alt="">
-            <!-- Masthead Heading-->
+        <div class="container-fluid d-flex align-items-center flex-column w-100 h-100">
+            <img class="masthead-avatar mb-5" src="./img/avataaars.png" alt="">
             <h1 class="masthead-heading mb-0">Welcome</h1>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Masthead Subheading-->
             <p class="pre-wrap masthead-subheading font-weight-light mb-0">HTML_CSS_JS_BOOTSTRAP...</p>
         </div>
     </header>
-    <section class="page-section portfolio" id="portfolio">
-        <div class="container">
-            <!-- Portfolio Section Heading-->
-            <div class="text-center">
-                <h2 class="page-section-heading text-secondary mb-0 d-inline-block">PORTFOLIO</h2>
+    <!-----------------HEADER END -------------------->
+
+    <!-----------------ABOUT SECTION------------------>
+    <section class="page-section mb-0" id="about">
+        <div class="container-fluid">
+            <!-- About Section Heading-->
+            <div class="text-secondary">
+                <h2 class="page-section-heading d-inline-block">ABOUT ME</h2>
             </div>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            </div>
+            <!-- About Section Content-->
+            <div class="row">
+                <div class="col-lg-8 ml-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+                        doloribus architecto dicta laudantium quidem non dolorem facere voluptatem quia, obcaecati
+                        excepturi perspiciatis? Sunt, aspernatur eligendi delectus dignissimos asperiores voluptatem
+                        recusandae numquam laudantium dolor facilis reprehenderit vitae, officia repellendus! Fugiat
+                        dolorem consectetur minima doloribus velit debitis quibusdam maiores ea id sint!
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+                        doloribus architecto dicta laudantium quidem non dolorem facere voluptatem quia, obcaecati
+                        excepturi perspiciatis? Sunt, aspernatur eligendi delectus dignissimos asperiores voluptatem
+                        recusandae numquam laudantium dolor facilis reprehenderit vitae, officia repellendus! Fugiat
+                        dolorem consectetur minima doloribus velit debitis quibusdam maiores ea id sint!
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+                        doloribus architecto dicta laudantium quidem non dolorem facere voluptatem quia, obcaecati
+                        excepturi perspiciatis? Sunt, aspernatur eligendi delectus dignissimos asperiores voluptatem
+                        recusandae numquam laudantium dolor facilis reprehenderit vitae, officia repellendus! Fugiat
+                        dolorem consectetur minima doloribus velit debitis quibusdam maiores ea id sint!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------CERTIFICATES------------->
+    <section class="page-section mb-0 bg-secondary certificates" id="certificates">
+        <div class="container-fluid">
+            <!-- Portfolio Section Heading-->
+            <div>
+                <h2 class="page-section-heading d-inline-block text-white">CERTIFICATES</h2>
+            </div>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
             </div>
-            <!-- Portfolio Grid Items-->
+            <!-- Certificates Grid Items-->
             <div class="row">
+
                 <!-- Portfolio Items-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
-                        <div
-                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i
-                                    class="fas fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="Log Cabin" />
-                    </div>
+                <div class="col-md-4  p-5">
+                    <img class="img img-fluid" src="./certs/Certificate.png"></img>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                        <div
-                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i
-                                    class="fas fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/cake.png" alt="Tasty Cake" />
-                    </div>
+                <div class="col-md-8   p-5 text-light">
+                    <p>The Microsoft Professional Program is an industry-driven online learning program from Microsoft
+                        that teaches conceptual skills and provides hands-on experience that is necessary to succeed in
+                        some of today’s most exciting technical jobs. To earn this certificate from the Microsoft
+                        Professional Program, graduates earned passing scores from a rigorous curriculum that included
+                        activities like online video lectures, hands-on labs, exams, and assessments.
+                    </p>
+                    <p>
+                        You will learn how to think logically and systematically through creating basic programs,
+                        developing interactive webpages, and understanding how to keep the user in mind in design, as
+                        well as analyzing algorithms and data for efficiency.
+                    </p>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                        <div
-                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i
-                                    class="fas fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/circus.png" alt="Circus Tent" />
-                    </div>
+                <div class="col-md-4 p-5">
+                    <img class="img-fluid" src="./certs/Professional Certificate _ edX Credentials_intro_to_CS.png"
+                        alt=" " />
                 </div>
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                        <div
-                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i
-                                    class="fas fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/game.png" alt="Controller" />
-                    </div>
+                <div class="col-md-8 p-5">
+                    <p>The Microsoft Professional Program is an industry-driven online learning program from Microsoft
+                        that teaches conceptual skills and provides hands-on experience that is necessary to succeed in
+                        some of today’s most exciting technical jobs. To earn this certificate from the Microsoft
+                        Professional Program, graduates earned passing scores from a rigorous curriculum that included
+                        activities like online video lectures, hands-on labs, exams, and assessments.
+                    </p>
+                    <p>
+                        You will learn how to think logically and systematically through creating basic programs,
+                        developing interactive webpages, and understanding how to keep the user in mind in design, as
+                        well as analyzing algorithms and data for efficiency.
+                    </p>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                        <div
-                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i
-                                    class="fas fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/safe.png" alt="Locked Safe" />
-                    </div>
+                <div class="col-md-6 mb-5">
+                    <img class="img-fluid" src="./certs/Professional Certificate _ edX Credentials_intro_to_java.png"
+                        alt=" " />
                 </div>
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                        <div
-                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i
-                                    class="fas fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="Submarine" />
-                    </div>
+                <div class="col-md-6  mb-5">
+                    <p>The Microsoft Professional Program is an industry-driven online learning program from Microsoft
+                        that teaches conceptual skills and provides hands-on experience that is necessary to succeed in
+                        some of today’s most exciting technical jobs. To earn this certificate from the Microsoft
+                        Professional Program, graduates earned passing scores from a rigorous curriculum that included
+                        activities like online video lectures, hands-on labs, exams, and assessments.
+                    </p>
+                    <p>
+                        You will learn how to think logically and systematically through creating basic programs,
+                        developing interactive webpages, and understanding how to keep the user in mind in design, as
+                        well as analyzing algorithms and data for efficiency.
+                    </p>
                 </div>
+
             </div>
         </div>
     </section>
@@ -153,9 +190,11 @@
                                 <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
                                     src="assets/img/portfolio/cabin.png" alt="Log Cabin" />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia
+                                    neque
                                     assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque.
+                                    Nam.
                                 </p>
                                 <button class="btn btn-primary" href="#" data-dismiss="modal"><i
                                         class="fas fa-times fa-fw"></i>Close Window</button>
@@ -187,9 +226,11 @@
                                 <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
                                     src="assets/img/portfolio/cake.png" alt="Tasty Cake" />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia
+                                    neque
                                     assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque.
+                                    Nam.
                                 </p>
                                 <button class="btn btn-primary" href="#" data-dismiss="modal"><i
                                         class="fas fa-times fa-fw"></i>Close Window</button>
@@ -221,9 +262,11 @@
                                 <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
                                     src="assets/img/portfolio/circus.png" alt="Circus Tent" />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia
+                                    neque
                                     assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque.
+                                    Nam.
                                 </p>
                                 <button class="btn btn-primary" href="#" data-dismiss="modal"><i
                                         class="fas fa-times fa-fw"></i>Close Window</button>
@@ -255,9 +298,11 @@
                                 <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
                                     src="assets/img/portfolio/game.png" alt="Controller" />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia
+                                    neque
                                     assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque.
+                                    Nam.
                                 </p>
                                 <button class="btn btn-primary" href="#" data-dismiss="modal"><i
                                         class="fas fa-times fa-fw"></i>Close Window</button>
@@ -289,9 +334,11 @@
                                 <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
                                     src="assets/img/portfolio/safe.png" alt="Locked Safe" />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia
+                                    neque
                                     assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque.
+                                    Nam.
                                 </p>
                                 <button class="btn btn-primary" href="#" data-dismiss="modal"><i
                                         class="fas fa-times fa-fw"></i>Close Window</button>
@@ -323,9 +370,11 @@
                                 <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
                                     src="assets/img/portfolio/submarine.png" alt="Submarine" />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia
+                                    neque
                                     assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque.
+                                    Nam.
                                 </p>
                                 <button class="btn btn-primary" href="#" data-dismiss="modal"><i
                                         class="fas fa-times fa-fw"></i>Close Window</button>
@@ -336,32 +385,12 @@
             </div>
         </div>
     </div>
-    <section class="page-section bg-primary text-white mb-0" id="about">
-        <div class="container">
-            <!-- About Section Heading-->
-            <div class="text-center">
-                <h2 class="page-section-heading d-inline-block text-white">ABOUT</h2>
-            </div>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- About Section Content-->
-            <div class="row">
-                <div class="col-lg-4 ml-auto">
-                    <p class="pre-wrap lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The
-                        download includes the complete source files including HTML, CSS, and JavaScript as well as
-                        optional SASS stylesheets for easy customization.</p>
-                </div>
-                <div class="col-lg-4 mr-auto">
-                    <p class="pre-wrap lead">You can create your own custom avatar for the masthead, change the icon in
-                        the dividers, and add your email address to the contact form to make it fully functional!</p>
-                </div>
-            </div>
-        </div>
-    </section>
+
+
+
+
+
+
     <section class="page-section" id="contact">
         <div class="container">
             <!-- Contact Section Heading-->
@@ -387,7 +416,7 @@
                     <div class="d-flex flex-column align-items-center">
                         <div class="icon-contact mb-3"><i class="far fa-envelope"></i></div>
                         <div class="text-muted">Email</div><a class="lead font-weight-bold"
-                            href="mailto:name@example.com">name@example.com</a>
+                            href="mailto:lhazy111@gmail.com">lhazy111@gmail.com</a>
                     </div>
                 </div>
             </div>
@@ -398,25 +427,23 @@
             <div class="row">
                 <!-- Footer Location-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="mb-4">LOCATION</h4>
-                    <p class="pre-wrap lead mb-0">2215 John Daniel Drive
-                        Clark, MO 65243</p>
                 </div>
                 <!-- Footer Social Icons-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <h4 class="mb-4">AROUND THE WEB</h4><a class="btn btn-outline-light btn-social mx-1"
-                        href="https://www.facebook.com/StartBootstrap"><i class="fab fa-fw fa-facebook-f"></i></a><a
-                        class="btn btn-outline-light btn-social mx-1" href="https://www.twitter.com/sbootstrap"><i
-                            class="fab fa-fw fa-twitter"></i></a><a class="btn btn-outline-light btn-social mx-1"
-                        href="https://www.linkedin.com/in/startbootstrap"><i class="fab fa-fw fa-linkedin-in"></i></a><a
-                        class="btn btn-outline-light btn-social mx-1" href="https://www.dribble.com/startbootstrap"><i
-                            class="fab fa-fw fa-dribbble"></i></a>
+                        href="https://github.com/lhazy111"><i class="fab fa-fw fa-github"></i></a><a
+                        class="btn btn-outline-light btn-social mx-1" href="#"><i
+                            class="fab fa-fw fa-discord"></i></a><a class="btn btn-outline-light btn-social mx-1"
+                        href="#"><i class="fab fa-fw fa-linkedin-in"></i></a><a
+                        class="btn btn-outline-light btn-social mx-1"
+                        href="https://api.whatsapp.com/send?phone=447716044683"><i
+                            class="fab fa-fw fa-whatsapp"></i></a>
                 </div>
                 <!-- Footer About Text-->
                 <div class="col-lg-4">
                     <h4 class="mb-4">ABOUT FREELANCER</h4>
-                    <p class="pre-wrap lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by
-                        Start Bootstrap</p>
+                    <p class="pre-wrap lead mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, aut!
+                    </p>
                 </div>
             </div>
         </div>
@@ -429,6 +456,7 @@
     <div class="scroll-to-top d-lg-none position-fixed"><a
             class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
                 class="fa fa-chevron-up"></i></a></div>
+    </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>

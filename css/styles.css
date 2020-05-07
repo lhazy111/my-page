@@ -7184,11 +7184,11 @@ h3 {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center; }
   .divider-custom .divider-custom-line {
     width: 100%;
-    max-width: 7rem;
+    max-width: 20rem;
     height: 0.25rem;
     background-color: #e7b633;
     border-radius: 1rem;
@@ -7196,7 +7196,7 @@ h3 {
     .divider-custom .divider-custom-line:first-child {
       margin-right: 1rem; }
     .divider-custom .divider-custom-line:last-child {
-      margin-left: 1rem; }
+      margin-left: 0; }
   .divider-custom .divider-custom-icon {
     color: #e7b633 !important;
     font-size: 2rem; }

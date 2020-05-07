@@ -3,7 +3,7 @@ body{
 
 }
 
-header {
+#landing {
     position: relative;
     background-color: rgb(255, 255, 255);
     height: 100vh;
@@ -13,7 +13,7 @@ header {
     text-shadow: 1px 1px 8px rgb(235, 76, 8)
   }
   
-  header video {
+  #landing video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -28,12 +28,12 @@ header {
     transform: translateX(-50%) translateY(-50%);
   }
   
-  header .container {
+  #landing .container {
     position: relative;
     z-index: 2;
   }
   
-  header .overlay {
+  #landing .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -50,5 +50,5 @@ header {
     }
     header video {
       display: none;
-    }*/
-  }
+    }
+  }*/
