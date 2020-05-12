@@ -43,6 +43,11 @@ body{
     opacity: 0.5;
     z-index: 1;
   }
+
+  #projects {
+    background-image: url(../bg/projects-3-bg.jpg);
+    background-attachment: fixed;
+  }
 .full-screen{
   height: 100vh;
 
@@ -71,9 +76,22 @@ font-size: small;
   opacity: 0.7;
 }
 
+.neon {
+  box-shadow: 1px 1px 2px black, 0 0 95px rgb(248, 246, 246), 0 0 10px rgb(154, 5, 241);
+}
+
 .rotate5{
   transform: rotateZ(30deg);
   z-index: -1;
+}
+
+.grad1 {
+  background-image: linear-gradient(white,#e7b633, rgb(111, 235, 235));
+}
+
+.grad2{
+  background-image: linear-gradient(rgb(111, 235, 235),rgb(255, 208, 0), rgb(31, 168, 202), rgba(0, 0, 0, 0.904));
+
 }
   
 .flip-box {
